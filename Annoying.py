@@ -89,7 +89,7 @@ def random_volume():
     except: pass
 
 def random_app_open():
-    # Spams random apps for disruption
+    # Spams random apps
     apps = ['notepad.exe', 'calc.exe', 'mspaint.exe', 'write.exe', 'explorer.exe']
     while True:
         try:
